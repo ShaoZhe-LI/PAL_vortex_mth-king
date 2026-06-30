@@ -1,0 +1,34 @@
+# MATLAB temporary files
+*.asv
+*.m~
+*.tmp
+
+# MATLAB output / binary files
+*.mat
+*.fig
+
+# Generated figures
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# Result and cache folders
+result_*/
+data_pu/
+JASA_USE/
+AudioTransform_KingLocalEffect_mSweep/
+AudioFixed_LocalCorr_*/
+AudioConvergence_*/
+Replot_original_style_exportgraphics*/
+cache/
+output/
+outputs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
