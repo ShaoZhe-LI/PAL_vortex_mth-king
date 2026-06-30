@@ -25,9 +25,6 @@ The code is intended for research use and for reproducing numerical results rela
 - `JASA_AudibleFieldSweepm.m`  
   King-only audible-field sweep for different modal-order combinations with King local-effect correction.
 
-- `JASA_AudibleFieldSweepm_integrated_png.m`  
-  Integrated audible-field sweep and compact PNG plotting version.
-
 - `JASA_UltrasonicField.m`  
   Ultrasonic pressure-field calculation.
 
@@ -78,49 +75,6 @@ The scripts were developed for numerical acoustic-field simulations involving:
 
 Parallel computing may be used in some scripts for DIM calculations.
 
-## Typical Workflow
-
-A typical workflow is:
-
-1. Run ultrasonic-field convergence tests:
-   ```matlab
-   JASA_Calc_convergence_ultra
-   ```
-
-2. Run audible-field convergence tests:
-   ```matlab
-   JASA_Calc_convergence_audio
-   ```
-
-3. Run fixed-line King/DIM comparison:
-   ```matlab
-   JASA_KingDIM_lineCompare
-   ```
-
-4. Run computational-cost benchmark:
-   ```matlab
-   JASA_KingDIM_ComplexityCompare
-   ```
-
-5. Run audible-field modal sweep with local-effect correction:
-   ```matlab
-   JASA_AudibleFieldSweepm
-   ```
-
-## Output Files
-
-The scripts may generate result folders containing `.mat`, `.fig`, `.png`, `.pdf`, `.csv`, and `.txt` files. These generated files are not included in this repository by default.
-
-Typical generated folders include:
-
-- `result_*/`
-- `data_pu/`
-- `AudioTransform_KingLocalEffect_mSweep/`
-- `AudioFixed_LocalCorr_*/`
-- `JASA_USE/`
-
-These folders are intended for local calculation results and are usually excluded from version control.
-
 ## Notes
 
 - The repository is intended mainly for code sharing and reproducible numerical modeling.
@@ -130,4 +84,4 @@ These folders are intended for local calculation results and are usually exclude
 
 ## License
 
-No license has been specified yet. Add a license file if the repository will be made public or distributed.
+A license has not been specified yet. Unless a license is added, all rights are reserved by the author.
